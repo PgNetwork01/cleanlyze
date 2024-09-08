@@ -11,14 +11,14 @@
 
 ## Commands
 
-- remove_duplicates: 'Remove duplicate rows from DataFrame.',
-- handle_missing_values: 'Handle missing values with specified strategy.',
-- normalize_data: 'Normalize the DataFrame using Min-Max scaling.',
-- create_polynomial_features: 'Create polynomial features of a specified degree.',
-- plot_histogram: 'Plot a histogram for a specific column.',
-- plot_correlation_matrix: 'Plot the correlation matrix of the DataFrame.',
-- read_csv: 'Read a CSV file into a DataFrame.',
-- write_csv: 'Write the DataFrame to a CSV file.'
+- **remove_duplicates**: 'Remove duplicate rows from DataFrame.',
+- **handle_missing_values**: 'Handle missing values with specified strategy.',
+- **normalize_data**: 'Normalize the DataFrame using Min-Max scaling.',
+- **create_polynomial_features**: 'Create polynomial features of a specified degree.',
+- **plot_histogram**: 'Plot a histogram for a specific column.',
+- **plot_correlation_matrix**: 'Plot the correlation matrix of the DataFrame.',
+- **read_csv**: 'Read a CSV file into a DataFrame.',
+- **write_csv**: 'Write the DataFrame to a CSV file.'
 
 ## Installation
 
