@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usage - Cleanlyze</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Cleanlyze: Usage Guide</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="usage.html">Usage</a></li>
-                <li><a href="commands.html">Commands</a></li>
-                <li><a href="installation.html">Installation</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>How to Use Cleanlyze</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="usage.html">Usage</a></li>
+                    <li><a href="commands.html">Commands</a></li>
+                    <li><a href="installation.html">Installation</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="main-content">
-        <h2>Installation</h2>
-        <p>Install Cleanlyze using pip:</p>
-        <pre><code>pip install cleanlyze</code></pre>
 
-        <h2>Basic Example</h2>
-        <pre><code>
-import cleanlyze as cz
+    <section class="content">
+        <div class="container">
+            <h2>Installation</h2>
+            <p>Install Cleanlyze using pip:</p>
+            <pre><code>pip install cleanlyze</code></pre>
+
+            <h2>Example Usage</h2>
+            <pre><code>import cleanlyze as cz
 import pandas as pd
 
 # Example DataFrame
@@ -35,12 +39,14 @@ df = pd.DataFrame(data)
 # Remove duplicates
 clean_df = cz.remove_duplicates(df)
 print(clean_df)
-        </code></pre>
-
-        <a href="commands.html" class="btn">View Commands</a>
+            </code></pre>
+        </div>
     </section>
+
     <footer>
-        <p>&copy; 2024 Cleanlyze. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Cleanlyze. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
